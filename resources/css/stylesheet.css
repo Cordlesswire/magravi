@@ -73,7 +73,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 300;
+    font-weight: 500;
     font-size: x-large;
 }
 
@@ -87,7 +87,6 @@ code {
     font-size: 110%;
     font-family: monospace;
     line-height: 120%;
-    text-shadow: 2px 2px 1px #222222;
 
 }
 
@@ -134,13 +133,9 @@ footer a:focus, footer a:hover {
 }
 
 #home a {
-    border-bottom: 1px solid rgba(255,255,255,0.1);
     color: #fff;
 }
 
-#home a:focus, #home a:hover {
-    border-bottom: 1px solid #fff;
-}
 
 #home .title {
     display: inline-block;
@@ -159,14 +154,6 @@ footer a:focus, footer a:hover {
     border-radius: 3px;
 }
 
-#home .h1 {
-    text-shadow: 2px 2px 1px #222222;
-}
-
-#home .h2 {
-    text-shadow: 2px 2px 1px #222222;
-
-}
 
 .btn {
 text-shadow: 2px 2px 1px #222222;
@@ -205,7 +192,7 @@ text-shadow: 2px 2px 1px #222222;
 #home2 {
     height: 100%;
     background-color: #32aad8;
-    background-image: url(../img/studio-ubuntu.jpg);
+    background-image: url(../img/services.jpg);
     background-attachment: scroll;
     background-position: top top;
     -webkit-background-size: cover;
@@ -233,7 +220,7 @@ text-shadow: 2px 2px 1px #222222;
 #home3 {
     height: 100%;
     background-color: #32aad8;
-    background-image: url(../img/blueprint.jpg);
+    background-image: url(../img/services2.jpg);
     background-attachment: scroll;
     background-position: top top;
     -webkit-background-size: cover;
@@ -261,7 +248,7 @@ text-shadow: 2px 2px 1px #222222;
 #home4 {
     height: 100%;
     background-color: #32aad8;
-    background-image: url(../img/home.jpg);
+    background-image: url(../img/melograno.jpg);
     background-attachment: scroll;
     background-position: top top;
     -webkit-background-size: cover;
@@ -283,6 +270,85 @@ text-shadow: 2px 2px 1px #222222;
     position: relative;
     font-size: 120%;
 }
+
+#home5 {
+    height: 100%;
+    background-color: #32aad8;
+    background-image: url(../img/ciliegio.jpg);
+    background-attachment: scroll;
+    background-position: top top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff;
+    overflow-x:scroll;
+}
+
+#home5 .title {
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+}
+
+#home5 .subtitle {
+        display: inline-block;
+    position: relative;
+    font-size: 120%;
+}
+
+#home6 {
+    height: 100%;
+    background-color: #32aad8;
+    background-image: url(../img/ulivo.jpg);
+    background-attachment: scroll;
+    background-position: top top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff;
+    overflow-x:scroll;
+}
+
+#home6 .title {
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+}
+
+#home6 .subtitle {
+        display: inline-block;
+    position: relative;
+    font-size: 120%;
+}
+
+#home7 {
+    height: 100%;
+    background-color: #32aad8;
+    background-image: url(../img/photos.jpg);
+    background-attachment: scroll;
+    background-position: top top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff;
+    overflow-x:scroll;
+}
+
+#home7 .title {
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+}
+
+#home7 .subtitle {
+        display: inline-block;
+    position: relative;
+    font-size: 120%;
+}
+
 
 .center {
     float: center;

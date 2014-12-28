@@ -87,7 +87,6 @@ code {
     font-size: 110%;
     font-family: monospace;
     line-height: 120%;
-
 }
 
 section {
@@ -129,7 +128,7 @@ footer a:focus, footer a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    overflow-x:scroll;    
+    overflow-x: scroll;    
 }
 
 #home a {
@@ -152,11 +151,13 @@ footer a:focus, footer a:hover {
     background: rgba(0,0,0,0.5);
     padding: 2%;
     border-radius: 3px;
+    margin-left: 70%;
+    
 }
 
 
 .btn {
-text-shadow: 2px 2px 1px #222222;
+        font-family: 'Open Sans';
   background: transparent;
   border: solid #ffffff 3px;
   -webkit-border-radius: 8;
@@ -192,7 +193,7 @@ text-shadow: 2px 2px 1px #222222;
 #home2 {
     height: 100%;
     background-color: #32aad8;
-    background-image: url(../img/services.jpg);
+    background-image: url(../img/home2.jpg);
     background-attachment: fixed;
     background-position: top top;
     -webkit-background-size: cover;

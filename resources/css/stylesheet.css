@@ -161,7 +161,7 @@ p {
 .btn {
         font-family: 'Open Sans';
   background: transparent;
-  border: solid #ffffff 3px;
+  border: solid #ffffff 2px;
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -352,6 +352,15 @@ p {
     font-size: 120%;
 }
 
+ul {
+    display: table;
+    width: 60%;
+}
+li {
+    display: table-cell;
+}
+li.left {text-align: left;}
+li.right {text-align: right;}
 
 .center {
     float: center;

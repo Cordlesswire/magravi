@@ -352,6 +352,10 @@ text-align: center;
         transform: translate3d(0, 0, 0);
 }
 
+#likebox-wrapper * {
+   width: 100% !important;
+}
+
 /*home4*/
 
 #home4 {

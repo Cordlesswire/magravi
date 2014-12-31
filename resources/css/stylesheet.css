@@ -190,6 +190,38 @@ p {
     transition: all 0.5s ease-in-out;
 }
 
+.btn_dark {
+        font-family: 'Open Sans';
+  background: transparent;
+  border: solid #4b1800 2px;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #4b1800;
+    
+  font-size: 20px;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+        -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn_dark:hover {
+    text-shadow: none;
+  background: #ffffff;
+  color: #4b1800;
+  text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
 /*home2*/
 
 #home2 {
@@ -251,7 +283,7 @@ p {
 #home4 {
     height: 100%;
     background-color: #32aad8;
-    background-image: url(../img/melograno.jpg);
+    background-image: url(../img/trulli/melograno/14456275357_6ee5e1e558_k.jpg);
     background-attachment: fixed;
     background-position: top top;
     -webkit-background-size: cover;
@@ -274,10 +306,36 @@ p {
     font-size: 120%;
 }
 
+#home4_2 {
+    height: 100%;
+    background-color: #32aad8;
+    background-image: url(../img/trulli/melograno/14642174992_b3e872f5b7_k.jpg);
+    background-attachment: fixed;
+    background-position: top top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff;
+    overflow-x:scroll;
+}
+
+#home4_2 .title {
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+}
+
+#home4_2 .subtitle {
+        display: inline-block;
+    position: relative;
+    font-size: 120%;
+}
+
 #home5 {
     height: 100%;
     background-color: #32aad8;
-    background-image: url(../img/ciliegio.jpg);
+    background-image: url(../img/trulli/ciliegio/14640206614_ead3157aa1_k.jpg);
     background-attachment: fixed;
     background-position: top top;
     -webkit-background-size: cover;
@@ -300,10 +358,36 @@ p {
     font-size: 120%;
 }
 
+#home5_2 {
+    height: 100%;
+    background-color: #32aad8;
+    background-image: url(../img/trulli/ciliegio/14455692558_4cb09f85c4_k.jpg);
+    background-attachment: fixed;
+    background-position: top top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff;
+    overflow-x:scroll;
+}
+
+#home5_2 .title {
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+}
+
+#home5_2 .subtitle {
+        display: inline-block;
+    position: relative;
+    font-size: 120%;
+}
+
 #home6 {
     height: 100%;
     background-color: #32aad8;
-    background-image: url(../img/ulivo.jpg);
+    background-image: url(../img/trulli/ulivo/14456167917_35a05a32a9_k.jpg);
     background-attachment: fixed;
     background-position: top top;
     -webkit-background-size: cover;
@@ -321,6 +405,32 @@ p {
 }
 
 #home6 .subtitle {
+        display: inline-block;
+    position: relative;
+    font-size: 120%;
+}
+
+#home6_2 {
+    height: 100%;
+    background-color: #32aad8;
+    background-image: url(../img/trulli/ulivo/14639277691_c2d24d3618_k.jpg);
+    background-attachment: fixed;
+    background-position: top top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff;
+    overflow-x:scroll;
+}
+
+#home6_2 .title {
+    display: inline-block;
+    position: relative;
+    font-size: 300%;
+}
+
+#home6_2 .subtitle {
         display: inline-block;
     position: relative;
     font-size: 120%;

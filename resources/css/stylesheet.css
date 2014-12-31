@@ -118,7 +118,7 @@ p {
 }
 
 #header {
-  background: #4B1800;
+  background: #7f8c8d;
   width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -127,6 +127,7 @@ p {
   margin: 0;
   position: relative;
   top: 0px;
+    
 }
 
 #nav a {
@@ -188,7 +189,9 @@ text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    overflow-x: scroll;    
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;
 }
 
 #home a {
@@ -210,6 +213,7 @@ text-align: center;
 #home2 .code {
     background: rgba(0,0,0,0.5);
     padding: 2%;
+    margin-left: 45%;
     border-radius: 3px;
     
 }
@@ -292,7 +296,9 @@ text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    overflow-x:scroll;
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;
 }
 
 #home2 .title {
@@ -320,8 +326,9 @@ text-align: center;
     background-size: cover;
     background-repeat: repeat;
     color: #fff;
-    overflow-x:scroll;
-}
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;}
 
 #home3 .title {
     display: inline-block;
@@ -357,8 +364,9 @@ text-align: center;
     background-size: cover;
     background-repeat: repeat;
     color: #fff;
-    overflow-x:scroll;
-}
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;}
 
 #home4 .title {
     display: inline-block;
@@ -383,8 +391,9 @@ text-align: center;
     background-size: cover;
     background-repeat: repeat;
     color: #fff;
-    overflow-x:scroll;
-}
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;}
 
 #home4_2 .title {
     display: inline-block;
@@ -409,8 +418,9 @@ text-align: center;
     background-size: cover;
     background-repeat: repeat;
     color: #fff;
-    overflow-x:scroll;
-}
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;}
 
 #home5 .title {
     display: inline-block;
@@ -435,8 +445,9 @@ text-align: center;
     background-size: cover;
     background-repeat: repeat;
     color: #fff;
-    overflow-x:scroll;
-}
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;}
 
 #home5_2 .title {
     display: inline-block;
@@ -461,8 +472,9 @@ text-align: center;
     background-size: cover;
     background-repeat: repeat;
     color: #fff;
-    overflow-x:scroll;
-}
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;}
 
 #home6 .title {
     display: inline-block;
@@ -487,8 +499,9 @@ text-align: center;
     background-size: cover;
     background-repeat: repeat;
     color: #fff;
-    overflow-x:scroll;
-}
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;}
 
 #home6_2 .title {
     display: inline-block;
@@ -513,8 +526,9 @@ text-align: center;
     background-size: cover;
     background-repeat: repeat;
     color: #fff;
-    overflow-x: scroll;
-}
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;}
 
 #home7 .title {
     display: inline-block;

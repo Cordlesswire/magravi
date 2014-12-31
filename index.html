@@ -84,7 +84,7 @@
             <br>
 
                 <br>
-                <h1>In questa favola gli autori siete voi.</h1><br>
+                <h1>In questa favola gli autori siete voi</h1><br>
 La nostra famiglia vi offre ospitalità e accoglienza, mettendo a vostra disposizione un complesso di trulli, ad Alberobello, risalenti al 1933, dotati di tutti i comfort necessari a una vera vacanza. <br>
                 <br>
                 <br>
@@ -120,6 +120,9 @@ Al <u><b>B&amp;B Magravì</b></u> si respira profumo di terra... di natura... 
                      <li>
                          <a data-scroll href="#content2"> Chi Siamo </a>
                      </li>
+                    <li>
+                         <a data-scroll href="#home2"> Contatti </a>
+                     </li>
                      <li>
                          <a data-scroll href="#home7"> Galleria Fotografica </a>
                      </li>
@@ -154,6 +157,9 @@ Al <u><b>B&amp;B Magravì</b></u> si respira profumo di terra... di natura... 
 
 <section id="content3">
                     <br>
+                        <br>
+                    <br>
+
     <a data-scroll href="#home2"><button class="btn_dark"> Torna su</button></a>
                 <br>
                 <br>
@@ -192,6 +198,9 @@ per sentirsi coccolato <br>
         </section>
     <section id="content4">
                     <br>
+                            <br>
+                    <br>
+
             <a data-scroll href="#home2"><button class="btn_dark"> Torna su</button></a>
                 <br>
                 <br>
@@ -203,7 +212,7 @@ per sentirsi coccolato <br>
                 <br>
                 <br>
                 <br>
-<h1>Il melograno é una soluzione adatta a chi preferisce la semplicità e la raffinatezza, ideale per coppie o piccole famiglie.</h1>
+<h1>Il melograno é una soluzione adatta a chi preferisce la semplicità e la raffinatezza, ideale per coppie o piccole famiglie</h1>
 
                     <br>
                 <br>
@@ -230,7 +239,10 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
 
         </section>
 <section id="content5">
-                        <br>
+                        <br> 
+    <br>
+                    <br>
+
             <a data-scroll href="#home2"><button class="btn_dark"> Torna su</button></a>
                     <br>
                 <br>
@@ -243,7 +255,7 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
                 <br>
                 <br>
                 <br>
-<h1>Titolo Ciliegio.</h1>
+<h1>Titolo Ciliegio</h1>
 
                     <br>
                 <br>
@@ -271,6 +283,8 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
     <section id="content6">
                     <br>
                             <br>
+                            <br>
+
             <a data-scroll href="#home2"><button class="btn_dark"> Torna su</button></a>
                 <br>
                 <br>
@@ -282,7 +296,7 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
                 <br>
                 <br>
                 <br>
-<h1>L'ulivo é la soluzione più adatta per le famiglie essendo il più spazioso dei nostri mini-appartamenti.</h1>
+<h1>L'ulivo é la soluzione più adatta per le famiglie essendo il più spazioso dei nostri mini-appartamenti</h1>
             
 <h3>Comprende <b>due camere da letto</b> comunicanti (matrimoniali o singoli), <b>bagno</b> e un'<b>ampia cucina</b> dotata di tutti gli elettrodomestici necessari.</h3>
                     <br>
@@ -305,6 +319,9 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
         </section>
     <section id="content2">
                     <br>
+                            <br>
+                    <br>
+
     <a data-scroll href="#home2"><button class="btn_dark"> Torna su</button></a>
                 <br>
                 <br>
@@ -315,7 +332,7 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
                 <br>
     <br>
     <br>
-<h1>Chi siamo.</h1>
+<h1>Chi siamo</h1>
 <h3> Il B&amp;B è gestito interamente dalla nostra famiglia, siamo Maria, Graziana e Vitanya e i nostri nomi costituiscono il nome della struttura, questa scelta è data dall'intento di sottolineare il carattere famigliare dell'ospitalità che vi offriamo. <br>  La struttura risale al 1933, è stata recuperata e resa agibile grazie all'incessante e dedito lavoro, iniziato ben undici anni fa, da Franco, il capo famiglia e autore di tutte le opere di ristrutturazione. <br> <br> <br> <b><i>...perchè per noi dove c'è una famiglia ci si sente sempre a casa.</i></b></h3>
                     <br>
                 <br>
@@ -337,7 +354,7 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
                      
                      <br>
                      <br>
-                     <h1 class="title">Foto.</h1>
+                     <h1 class="title">Foto</h1>
                      <br>
                      <h2 class="subtitle">L'album fotografico di Magravì è disponibile su <a href="https://www.flickr.com/photos/119079923@N04/sets/72157641705297383/">Flickr.</a>
                      </h2>
@@ -349,7 +366,14 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
             </a>
         <footer>
 <script>
-    smoothScroll.init();
+    smoothScroll.init({
+    speed: 1100, // Integer. How fast to complete the scroll in milliseconds
+    easing: 'easeOutQuint', // Easing pattern to use
+    updateURL: false, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+    offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+    callbackBefore: function ( toggle, anchor ) {}, // Function to run before scrolling
+    callbackAfter: function ( toggle, anchor ) {} // Function to run after scrolling
+});
 </script>
             Magravì B&amp;B Alberobello &#169; 2014.
         </footer>

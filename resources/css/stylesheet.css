@@ -118,7 +118,7 @@ p {
 }
 
 #header {
-  background: #7f8c8d;
+  background: #dedede;
   width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -156,21 +156,21 @@ text-align: center;
   text-decoration: none;
   margin: 0px;
   padding: 10px 15px 0px 15px;
-  color: #eee;
+  color: #333;
 }
 
 #nav ul li a:hover {
-  color: #ffffff;
+  color: #222;
   text-decoration: none;
 }
 
 #nav li.current-menu-item a {
-  color: #ffffff;
+  color: #222;
   text-decoration: none;
 }
 
 #nav li.current_page_item {
-  color: #ffffff;
+  color: #222;
   text-decoration: none;
 }
 

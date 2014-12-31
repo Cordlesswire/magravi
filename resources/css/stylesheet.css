@@ -119,6 +119,7 @@ p {
 
 #header {
   background: #dedede;
+    opacity: 0.9;
   width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -254,12 +255,12 @@ text-align: center;
 .btn_dark {
         font-family: 'Open Sans';
   background: transparent;
-  border: solid #4b1800 2px;
+  border: solid #333333 2px;
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family: Arial;
-  color: #4b1800;
+  color: #333333;
     
   font-size: 20px;
   padding: 20px 20px 20px 20px;
@@ -273,8 +274,8 @@ text-align: center;
 
 .btn_dark:hover {
     text-shadow: none;
-  background: #ffffff;
-  color: #4b1800;
+  background: #333333;
+  color: #ffffff;
   text-decoration: none;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;

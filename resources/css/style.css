@@ -29,6 +29,24 @@ p {
     width: 100%;
   }
 
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    min-height: 100vh;
+      height: auto;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
 .icon-block {
   padding: 0 15px;
 }

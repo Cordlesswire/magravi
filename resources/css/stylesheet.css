@@ -541,6 +541,16 @@ text-align: center;
     font-size: 300%;
 }
 
+         <ul class="right hide-on-med-and-down">
+             <li><a data-scroll href="#content3"> La nostra struttura</a></li>
+            <li><a data-scroll href="#melograno"> I nostri trulli</a></li>
+            <li><a data-scroll href="#content2"> Chi Siamo </a></li>
+            <li><a data-scroll href="#home2"> Contatti </a></li>
+            <li><a data-scroll href="#home7"> Galleria Fotografica </a></li>
+            <li><a href="http://magravi.blogspot.com"> News </a></li>
+            <li><a href="http://magravi.blogspot.it/p/disponibilita.html"> Prenota ora </a></li>
+          </ul>
+
 #home7 .subtitle {
         display: inline-block;
     position: relative;

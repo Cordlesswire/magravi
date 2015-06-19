@@ -8,7 +8,7 @@
         <title>Magravì</title>
         <link rel="shortcut icon" href="http://alberobellobeb.it/resources/img/favicon.png" type="image/x-icon" />
         <link rel="image_src" href="http://alberobellobeb.it/resources/img/preview.png" />
-        <script src="http://alberobellobeb.it/resources/js/smooth-scroll.min.js"></script>
+        <script async src="http://alberobellobeb.it/resources/js/smooth-scroll.min.js"></script>
         <script type="text/javascript" src=".http://alberobellobeb.it/resources/js/webpjs-0.0.2.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
         <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
@@ -49,11 +49,11 @@
   <div id="index-banner" class="parallax-container valign-wrapper">
           <div class="section no-pad-bot">
       <div class="container">
-    <div id="google_translate_element"></div><script type="text/javascript">
+    <div id="google_translate_element"></div><script async type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'it', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</script><script async type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         
           <p></p>
                 <a href="http://www.magravi-en.blogspot.it/"><img src="http://alberobellobeb.it/resources/img/uk.png" height="20px"></a>
@@ -73,7 +73,7 @@ function googleTranslateElementInit() {
 <div class="row-center g-plusone" data-annotation="inline" data-width="300"></div>
 
 <!-- Inserisci questo tag dopo l'ultimo tag di pulsante +1. -->
-<script type="text/javascript">
+<script async type="text/javascript">
   window.___gcfg = {lang: 'en'};
 
   (function() {
@@ -313,22 +313,22 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
                 <form class="col s12" enctype="text/plain" method="POST" action="mailto:info@magravi.it?subject=Richiesta Disponibilità">
       <div class="row">
         <div class="input-field col s6">
-          <input id="nome" name="Nome" type="text" class="validate grey-text">
+          <input required id="nome" name="Nome" type="text" class="validate grey-text">
           <label for="last_name">Nome completo</label>
         </div>
         <div class="input-field col s6">
-          <input id="last_name" name="E-mail" type="text" class="validate grey-text">
+          <input required id="last_name" name="E-mail" type="text" class="validate grey-text">
           <label for="email">La tua e-mail</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
             <label for="data_arrivo">Data Arrivo</label>
-            <input id="data_arrivo" name="Data di arrivo" type="date" class="datepicker grey-text">
+            <input required id="data_arrivo" name="Data di arrivo" type="date" class="datepicker grey-text">
         </div>
         <div class="input-field col s6">
             <label for="data_partenza">Data Partenza</label>
-            <input id="data_partenza" name="Data di partenza" type="date" class="datepicker grey-text">
+            <input required id="data_partenza" name="Data di partenza" type="date" class="datepicker grey-text">
         </div>
       </div>
       <div class="row">
@@ -337,7 +337,7 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
           <label for="ospiti">Numero di ospiti:</label>
         </div>
         <div class="input-field col s6">
-          <input id="telefono" name="Telefono" type="text" class="validate grey-text">
+          <input required id="telefono" name="Telefono" type="text" class="validate grey-text">
           <label for="telefono">Telefono:</label>
         </div>
       </div>
@@ -407,7 +407,7 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
   <script src="http://alberobellobeb.it/resources/js/materialize.js"></script>
   <script src="http://alberobellobeb.it/resources/js/init.js"></script>
     <!-- Date picker -->
-    <script>$('.datepicker').pickadate({
+    <script async>$('.datepicker').pickadate({
         selectMonths: true, // Creates a dropdown to control month
         selectYears: 15 // Creates a dropdown of 15 years to control year
       });

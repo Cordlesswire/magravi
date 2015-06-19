@@ -120,21 +120,22 @@ Al <u><b>B&amp;B Magravì</b></u> si respira profumo di terra... di natura... 
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row">
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Contatti</span>
-              <p>Telefono: <i>0804400186 - 3290165675</i> <br>
-                    E-mail: <i>info@magravi.it</i> <br><br>
-            Indirizzo: <br> <i>via Barratta 1 zona c 142 <br> 70015 Martina Franca (Ta)</i> <br><br>
-                        <font size="2%">Siamo a 5 km da Alberobello e a 15 km da Martina Franca. <br> Il nostro B&amp;B risulta essere nel territorio comunale di Martina Franca solo a causa di limite provinciale. <br><br></font></p>
-            </div>
-            <div class="card-action">
-              <a href="https://www.google.it/maps/place/SP58,+74015+Martina+Franca+TA/@40.7420475,17.2646203,17z/data=!4m2!3m1!1s0x1347ad1669d1fe93:0x63e819406daa2ef1" target="_blank">Apri in Google Maps</a>            </div>
-          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Contatti</span>
+                  <p>Telefono: <i>0804400186 - 3290165675</i> <br>
+                        E-mail: <i>info@magravi.it</i> <br><br>
+                Indirizzo: <br> <i>via Barratta 1 zona c 142 <br> 70015 Martina Franca (Ta)</i> <br><br>
+                            <font size="2%">Siamo a 5 km da Alberobello e a 15 km da Martina Franca. <br> Il nostro B&amp;B risulta essere nel territorio comunale di Martina Franca solo a causa di limite provinciale. <br><br></font></p>
+                </div>
+                <div class="card-action">
+                  <a href="https://www.google.it/maps/place/SP58,+74015+Martina+Franca+TA/@40.7420475,17.2646203,17z/data=!4m2!3m1!1s0x1347ad1669d1fe93:0x63e819406daa2ef1" target="_blank">Apri in Google Maps</a>            </div>
+              </div>
+            </div> 
+          </div>        
         </div>
-      </div>        </div>
       </div>
     </div>
     <div class="parallax"><img src="http://alberobellobeb.it/resources/img/home2.jpg" alt="Unsplashed background img 3"></div>
@@ -295,24 +296,64 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
       </div>
     </div>
   </div>
-    <div class="blue-grey lighten-4">
+    <div class="grey darken-4">
       <div class="container" id="prenota">
         <div class="section">
             <div class="row">
                 <div class="col s2 allign-center">
-                    <p> </p>
+                    <p></p>
               </div>
             <div class="col s8 allign-center">
               <div class="icon-block center-align">
                 <p><br><br></p>
-                <h2 class="center brown-text"><i class="mdi-social-group"></i></h2><br><br>
-                <h5 class="center">Prenota ora</h5><br>
-<script src="http://www.booking.com/general.html?tmpl=bookit;aid=330843;lang=it;hotel_id=1005841;cc1=it;hotel_page=magravi" type="text/javascript"></script>
-                  <br>
-                  <br>
-                  <a href="http://www.booking.com/hotel/it/magravi.it.html?aid=330843;sid=b710007953eab2f976b85fdc774b323e;dcid=1;dist=0&type=total&" id="prenota-button" class="btn-large waves-effect waves-light  brown darken-1">Prenota</a><br><br>
-                  <br>
-                  <br>
+                <h2 class="center brown-text"><i class="mdi-action-loyalty"></i></h2>
+                <h5 class="grey-text">Prenota ora</h5><br><br>
+                <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate grey-text">
+          <label for="last_name">Nome completo</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate grey-text">
+          <label for="last_name">La tua e-mail</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+            <label for="data_arrivo">Data Arrivo</label>
+            <input id="data_arrivo" type="date" class="datepicker grey-text">
+        </div>
+        <div class="input-field col s6">
+            <label for="data_partenza">Data Partenza</label>
+            <input id="data_partenza" type="date" class="datepicker grey-text">
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="ospiti" type="text" class="validate grey-text">
+          <label for="ospiti">Numero di ospiti:</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="telefono" type="text" class="validate grey-text">
+          <label for="telefono">Telefono:</label>
+        </div>
+      </div>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="note" class="materialize-textarea"></textarea>
+              <label for="note">Note</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </form>
+                  <div class="row center"><p><br></p>
+          <a data-scroll href="#prenota" id="download-button" class="btn-large waves-effect waves-light  brown darken-1">Prenota ora</a><br><br><br><br><br>
+            </div>
+                </div>
               </div>
             </div>
           </div>
@@ -363,6 +404,11 @@ Inoltre durante le stagioni invernali offriamo ai nostri ospiti la possibilità 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="http://alberobellobeb.it/resources/js/materialize.js"></script>
   <script src="http://alberobellobeb.it/resources/js/init.js"></script>
-
+    <!-- Date picker -->
+    <script>$('.datepicker').pickadate({
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 15 // Creates a dropdown of 15 years to control year
+      });
+    </script>
     </body>
 </html>
